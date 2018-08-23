@@ -1,0 +1,67 @@
+\documentclass[11pt]{article} % paper, article, report
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \Huge
+        \textbf{Thesis Title}
+        
+        \vspace{0.5cm}
+        \LARGE
+        Thesis Subtitle
+        
+        \vspace{1.5cm}
+        
+        \textbf{Author Name}
+        
+        \vfill
+        
+        A thesis presented for the degree of\\
+        Doctor of Philosophy
+        
+        \vspace{0.8cm}
+        
+        \includegraphics[width=0.4\textwidth]{universe}
+        
+        \Large
+        Department Name\\
+        University Name\\
+        Country\\
+        Date
+        
+    \end{center}
+\end{titlepage}
+
+\section{Introduction}
+
+There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
+
+There is another theory which states that this has already happened.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{universe}
+\caption{The Universe}
+\label{fig:universe}
+\end{figure}
+
+\section{Conclusion}
+
+``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+
+
+\newpage
+\renewcommand{\thepage}{}
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
